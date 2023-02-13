@@ -5,11 +5,5 @@
 	"/about": [
 		"src/routes/about/+page.js"
 	],
-	"/imprint": [],
-	"/sverdle": [
-		"src/routes/sverdle/+page.server.js"
-	],
-	"/sverdle/how-to-play": [
-		"src/routes/sverdle/how-to-play/+page.js"
-	]
+	"/imprint": []
 }
