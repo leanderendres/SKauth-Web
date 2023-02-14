@@ -21,5 +21,17 @@
 		font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 		color: azure;
 	}
-	
+	main {
+		position: absolute;
+	}
+	p {
+		font-size: 2rem;
+		position: absolute;
+    	bottom: -50%;
+		left: 50%;
+    	width: 100%;
+    	font-size: 0.8rem;
+    	color: #8DADB9;
+    	z-index: 2;
+	}
 </style>

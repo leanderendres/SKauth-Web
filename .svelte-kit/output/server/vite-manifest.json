@@ -1,0 +1,91 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_index.js"
+    ]
+  },
+  "_prod-ssr.js": {
+    "file": "chunks/prod-ssr.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_prod-ssr.js",
+      "_index.js",
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/routes/+layout.svelte": {
+    "css": [
+      "_app/immutable/assets/_layout-7be533dc.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.js": {
+    "file": "entries/pages/_page.js",
+    "isEntry": true,
+    "src": "src/routes/+page.js"
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/about/+page.js": {
+    "file": "entries/pages/about/_page.js",
+    "imports": [
+      "_prod-ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/about/+page.js"
+  },
+  "src/routes/about/+page.svelte": {
+    "file": "entries/pages/about/_page.svelte.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/about/+page.svelte"
+  },
+  "src/routes/imprint/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page-86ba986a.css"
+    ],
+    "file": "entries/pages/imprint/_page.svelte.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/imprint/+page.svelte"
+  }
+}
